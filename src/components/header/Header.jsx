@@ -6,12 +6,11 @@ const Header = () => {
     /*=============== Toggle Menu ===============*/
     const[Toggle, showMenu] = useState(false);
 
-
     return(
         <header className="header">
            <nav className="nav container">
             <a href="index.html" className="nav__logo">
-                AudioQuest
+                Enoch
                 </a>
                  <div className={Toggle ? "nav__menu show-menu" :
                 "nav__menu"}>
