@@ -26,8 +26,7 @@ const Services = () => {
 
                <div className={toggleState === 1 ? "services__modal active-modal" : "services__modal"}>
                 <div className="services__modal-content">
-                  <i onClick={() => toggleTab(0)} classname="uil 
-                  uil-times services__modal-close"></i>
+                  <i onClick={() => toggleTab(0)} classname="uil uil-times services__modal-close"></i>
 
                   <h3 className="services__modal-title">
                     Product Designer
@@ -87,7 +86,7 @@ const Services = () => {
 
                <div className={toggleState === 2 ? "services__modal active-modal" : "services__modal"}>
                 <div className="services__modal-content">
-                  <i onClick={() =>  toggleTab(0)} classname="uil uil-times 
+                  <i onClick={() =>  toggleTab(0)} classname="uil uil-arrow-right 
                   services__modal-close"></i>
 
                   <h3 className="services__modal-title">
