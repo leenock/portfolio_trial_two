@@ -22,7 +22,7 @@
     font-weight: var(--font-medium);
 
 }
-.services__buttom {
+.services__button {
     color: var(--title-color);
     font-size: var(--small-font-size);
     display: inline-flex;
@@ -30,7 +30,7 @@
     column-gap: 0.25rem;
     cursor: pointer;
 }
-.services__buttom-icon {
+.services__button-icon {
     font-size: 1rem;
     transition: 0.3s;
 }
@@ -103,3 +103,43 @@
     opacity: 1;
     visibility: visible;
 }
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    
+  
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+       .services__container{
+        grid-template-columns: repeat(2, 1fr);
+       }     
+       .services__content {
+        padding: 3.5rem 0.5rem 1.25rem 1.5rem;
+       }
+       .services__icon {
+        font-size: 1.5rem;
+       }
+  
+  }
+  
+  @media screen and (max-width: 576px) {
+    .services__modal-content {
+        padding: 4.5rem 1.5rem 2.5rem;
+    }
+    .services__modal-description {
+        padding: 0;
+    }
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+    .services__container {
+        grid-template-columns: max-content;
+    }
+    .services__content {
+        padding-right: 6rem;
+    }
+  
+  }
