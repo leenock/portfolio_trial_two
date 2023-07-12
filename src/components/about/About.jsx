@@ -21,7 +21,7 @@ const About = () => {
           projects carried out.</p>
           <a download="" href={CV} className="button button--flex">DownLoad CV
           <svg
-                class="button__icon"
+                className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
