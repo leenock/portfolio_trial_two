@@ -106,7 +106,6 @@
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
-    
   
   }
   
@@ -121,7 +120,6 @@
        .services__icon {
         font-size: 1.5rem;
        }
-  
   }
   
   @media screen and (max-width: 576px) {
