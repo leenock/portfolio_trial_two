@@ -7,7 +7,7 @@ import Skills from './components/skills/Skills';
 import Services from './components/services/Services';
 import Projects from './components/projects/Projects';
 import Qualification from './components/qualification/Qualification';
-import Testmonials from './components/testmonials/Testmonials';
+//import Testmonials from './components/testmonials/Testmonials';
 
 function App() {
   return (
@@ -20,10 +20,12 @@ function App() {
         < Services />
         < Projects />
         < Qualification />
-        < Testmonials/>
+       
     </main>
     </>
   );
 }
 
 export default App;
+
+// one page application websites without pages. 

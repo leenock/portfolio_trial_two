@@ -2,15 +2,17 @@ import React from 'react'
 import "./testmonials.css";
 import { Data } from "./Data";
 
+
+// import required modules
+import { Pagination } from 'swiper/modules';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
-import 'swiper/css/pagination';
 
-// import required modules
-import { Pagination } from 'swiper/modules';
+import 'swiper/modules/pagination/pagination.min.css'
+
 
 const Testmonials = () => {
   return (
