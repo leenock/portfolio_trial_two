@@ -29,7 +29,7 @@ const Qualification = () => {
             >
                 <i className="uil uil-graduation-cap
                      qualification__icon"></i>
-                     Experiences
+                     Experiencees
             </div>
          </div>
          <div className="qualification__sections">
