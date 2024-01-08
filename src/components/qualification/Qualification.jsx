@@ -20,7 +20,7 @@ const Qualification = () => {
             >
                 <i className="uil uil-graduation-cap
                      qualification__icon"></i>
-                     Education
+                     Educations
             </div>
 
             <div className={toggleState === 2 ?
@@ -29,7 +29,7 @@ const Qualification = () => {
             >
                 <i className="uil uil-graduation-cap
                      qualification__icon"></i>
-                     Experiencees
+                     Experiences
             </div>
          </div>
          <div className="qualification__sections">
